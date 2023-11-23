@@ -1,0 +1,31 @@
+/* Light Mode */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    /* Other properties */
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    /* Other styles */
+}
+
+/* Dark Mode */
+.dark-mode {
+    --bg-color: #222222;
+    --text-color: #ffffff !important;
+    /* Other properties */
+}
+
+.dark-mode body {
+    /* Override styles for dark mode */
+}
+
+#dark-mode-icon {
+    width: 40px;
+    /* Adjust size as needed */
+    height: 40px;
+    cursor: pointer;
+    /* Other styles */
+}

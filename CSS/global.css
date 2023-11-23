@@ -1,0 +1,52 @@
+.container {
+    margin: 1rem 4.2rem 0 4.2rem;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn {
+    height: auto;
+    padding: 15px 32px;
+    color: white;
+    background-color: #CF332B;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.btn:hover {
+    height: auto;
+    padding: 15px 32px;
+    color: white;
+    background-color: #cc1c13;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.red-line {
+    width: 8vw;
+    height: 0.3vh;
+    background-color: #CF332B;
+    position: absolute;
+    left: 45%;
+}
+
+.h2{
+    color: #002D5B;
+    font-size: 2.3rem;
+    padding-top: 5rem;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
