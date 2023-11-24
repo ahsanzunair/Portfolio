@@ -1,6 +1,6 @@
 /*--------- Responsive for Mobile------------------ */
 
-@media (max-width: 767px) {
+@media (max-width: 800px) {
 
     /*===============================================
             Doing Code to Responsive Default CSS
@@ -15,6 +15,7 @@
 
     body{
         width: 100% !important;
+        height: auto;
         overflow-x: hidden;
     }
 
@@ -112,26 +113,23 @@
     }
 
     .hero-text {
-        width: 53%;
+        width: 100% !important;
         text-align: center !important;
         /* margin-top: 0 !important; */
     }
-
+    
     .Hero-text-h h1 {
-        /* font-size: 1rem; */
-        width: 50vw;
+        font-size: 7vmax !important;
         text-align: center;
         color: #002D5B;
-        font-weight: 600;
+        font-weight: 500;
+        line-height: 2.5rem;
     }
-
+    
     .hero-text-p p {
-        width: 50vmax;
+        line-height: 1.5rem;
         text-align: center;
         font-weight: 100;
-        font-size: 16px;
-        /* position: relative;
-    left: 0%; */
         overflow: hidden;
     }
 
@@ -310,6 +308,35 @@
 
 /* ============================================
  Doing Code to Responsive Work Experience Scetion
+================================================= */
+
+#PortFOlio {
+    width: 100%;
+    height: auto;
+    color: black;
+    background-color: #FDF5F5;
+    padding-top: 2rem;
+    text-align: center !important;
+}
+
+.portfolio {
+    margin-top: 5rem;
+    width: 100% !important;
+    overflow: hidden;
+    transition: transform 0.5s ease-in-out;
+    text-align: center !important;
+}
+
+.img {
+    width: 100% !important;
+    height: auto !important;
+    text-align: center !important;
+    border-radius: 10px;
+    box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.07);
+}
+
+/* ============================================
+Doing Code to Responsive Work Experience Scetion
 ================================================= */
 
 #clients {
