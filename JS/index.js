@@ -27,9 +27,8 @@ if (window.matchMedia('(max-width: 800px)').matches) {
   
     slides[slideIndex - 1].style.display = 'block';
     setTimeout(showSlides, 2000); 
-
-
-  }
+    
+ }
 
   showSlides(); 
 }
