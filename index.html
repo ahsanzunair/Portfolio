@@ -10,6 +10,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="CSS/global.css">
     <link rel="stylesheet" href="CSS/darkmode.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 
@@ -22,7 +23,7 @@
                 </div>
                 <div class="top-menu">
                     <ul>
-                        <li><a href="#index.html">Home</a></li>
+                        <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Portfolio</a></li>
                         <li><a href="#">Blog</a></li>
@@ -32,8 +33,12 @@
                 <div class="nav-button">
                     <button class="">Hire Me</button>
                 </div>
+                <div class="nav-icon">
+                    <i class="fa-solid fa-bars fa-lg hamburger-icon" style="color: #f0827c;"></i>
+                    <i class="fa-solid fa-xmark fa-lg close-icon" style="color: #f0827c;"></i>
+                </div>
                 <!-- Include your dark mode icon image -->
-                <img src="assets/images/darkMode.png" alt="Dark Mode" id="dark-mode-icon" onclick="toggleDarkMode()">
+                <!-- <img src="assets/images/darkMode.png" alt="Dark Mode" id="dark-mode-icon" onclick="toggleDarkMode()"> -->
             </nav>
             <section id="hero">
                 <div class="hero-icons">
@@ -51,7 +56,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus luctusnec ullamcorper
                             mattis, pulvinar dapibus leop llamcorper, lorem ipsum.</p>
                     </div>
-                    <button class="btn">Learn More</button>
+                    <button class="btn n-btn">Learn More</button>
                 </div>
                 <div class="hero-image">
                     <img class="img-fluid" src="assets/images/h1_hero-bg.png" alt="">
@@ -73,7 +78,7 @@
                             ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <button class="btn">Contacy Me</button>
+                        <button class="btn left-btn">Contacy Me</button>
                     </div>
                 </div>
                 <div class="mid-about">
@@ -134,8 +139,8 @@
             <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <div class="red-line"></div>
         </div>
-        <div class="ex-up-box d-flex">
-            <div class="up-box">
+        <div class="ex-up-box r-box d-flex">
+            <div class="up-box rw-box">
                 <h3>UI/UX Designer</h3>
                 <p class="c-no">2015-2018</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
@@ -145,7 +150,7 @@
                     <span class="progress-text">UI/UX Designer</span>
                 </div>
             </div>
-            <div class="up-box">
+            <div class="up-box rw-box">
                 <h3>Web Designer</h3>
                 <p class="c-no">2015-2018</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
@@ -156,8 +161,8 @@
                 </div>
             </div>
         </div>
-        <div class="ex-dn-box d-flex">
-            <div class="dn-box">
+        <div class="ex-dn-box r-box d-flex">
+            <div class="dn-box rw-box">
                 <h3>Web Developer</h3>
                 <p class="c-no">2015-2018</p>
                 <p class="p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
@@ -168,7 +173,7 @@
                     <span class="progress-text">Web Developer</span>
                 </div>
             </div>
-            <div class="dn-box">
+            <div class="dn-box rw-box">
                 <h3>Graphic Designer</h3>
                 <p class="c-no">2015-2018</p>
                 <p class="p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
@@ -179,7 +184,7 @@
                     <span class="progress-text">Graphic Designer</span>
                 </div>
             </div>
-            <div class="dn-box">
+            <div class="dn-box rw-box">
                 <h3>Marketing</h3>
                 <p class="c-no">2015-2018</p>
                 <p class="p-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec

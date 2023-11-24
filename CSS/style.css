@@ -15,6 +15,13 @@ body {
     height: 100%;
 }
 
+
+::selection {
+    color: black;
+    background-color: #CF332B;
+}
+
+
 #header {
     width: 100%;
     height: 100vh;
@@ -75,9 +82,14 @@ body {
     border-radius: 5px;
 }
 
-::selection {
-    color: black;
-    background-color: #CF332B;
+.nav-icon {
+    display: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.close-icon {
+    display: none;
 }
 
 /* *******HERO SECTION START******* */
@@ -90,7 +102,7 @@ body {
 
 .hero-icons {
     width: 7%;
-    margin-top: 8rem;
+    margin-top: 8vmax;
     text-align: center;
 }
 
@@ -105,28 +117,30 @@ body {
 .hero-text {
     width: 53%;
     text-align: start;
-    margin-top: 8.4rem;
+    margin-top: 8.4vmax;
 }
 
 .Hero-text-h h1 {
-    font-size: 4rem;
+    font-size: 5vmax;
     color: #002D5B;
     font-weight: 600;
+    margin-left: 0;
 }
 
 .hero-text-p p {
-    margin: 2rem 0 3.5rem 0;
+    margin: 2vmax 0 3.5vmax 0;
 }
 
 .hero-image {
-    width: 40%;
+    width: 40vmax;
+    height: auto;
 }
 
 /* *******ABOUT SECTION START******* */
 
 #about {
-    height: 100%;
     width: 100%;
+    height: auto;
     padding: 5rem 0;
 }
 
@@ -139,11 +153,11 @@ body {
 
 .main-h h1 {
     color: #002D5B;
-    font-size: 2rem;
+    font-size: 4vmax;
 }
 
 .red-line-about {
-    width: 4vw;
+    width: 7vmax;
     height: 0.3vh;
     background-color: #CF332B;
     margin: 1rem 0;
@@ -159,7 +173,7 @@ body {
 
 .left-about {
     width: 38%;
-    line-height: 1.5rem;
+    line-height: 1.5vmax;
 }
 
 .left-about h1 {
@@ -172,7 +186,7 @@ body {
 .left-about p {
     margin-bottom: 2rem;
     line-height: 2rem;
-    padding-right: 2rem;
+    /* padding-right: 2rem; */
 }
 
 .mid-about {
@@ -313,7 +327,7 @@ i:hover {
 }
 
 .wp h2 {
-    font-size: 3rem;
+    font-size: 4.8vmax;
     color: white;
     margin-bottom: 1.8rem;
 
@@ -321,7 +335,7 @@ i:hover {
 
 .wp p {
     color: white;
-    font-size: 1.06rem;
+    font-size: 3vmax;
 }
 
 /* *******Work Experience SECTION START******* */
@@ -331,7 +345,7 @@ i:hover {
     height: auto;
     color: black;
     background-color: #FDF5F5;
-    padding: 0 5rem;
+    padding: 0 5vmax;
     text-align: center;
 }
 
@@ -531,7 +545,7 @@ i:hover {
     padding-top: 2rem;
     text-align: center;
     font-family: sans-serif;
-    padding: 1rem 20rem 5rem 20rem;
+    padding: 1vmax 20vmax 5vmax 20vmax;
 }
 
 .contact-form {
@@ -559,7 +573,7 @@ i:hover {
 .footer {
     display: flex;
     justify-content: space-around;
-    gap: 10rem;
+    gap: 10vmax;
 }
 
 .footer i {
@@ -567,11 +581,16 @@ i:hover {
     margin-top: 2rem;
 }
 
+.footer i:hover {
+    color: #EC5B53;
+}
+
 .footer h2 {
     color: white;
     font-size: 1.5rem;
     margin-top: 2rem;
 }
+
 .text-center {
     text-align: center;
     margin-top: 4rem;

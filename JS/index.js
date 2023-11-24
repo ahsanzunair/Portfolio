@@ -1,3 +1,7 @@
+// ========================================
+//     Working for Dark Mode
+//============================================
+
 function toggleDarkMode() {
     const body = document.body;
     body.classList.toggle('dark-mode');
@@ -12,4 +16,10 @@ function toggleDarkMode() {
   if (localStorage.getItem('darkMode') === 'true' || userPrefersDark) {
     document.body.classList.add('dark-mode');
   }
+  
+
+  document.getElementById('navbarToggler').addEventListener('click', function() {
+    document.getElementById('navbarMenu').classList.toggle('active');
+  });
+
   
