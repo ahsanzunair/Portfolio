@@ -102,7 +102,7 @@ body {
 
 .hero-icons {
     width: 7%;
-    margin-top: 8vmax;
+    margin-top: 14vmax;
     text-align: center;
 }
 
@@ -115,9 +115,10 @@ body {
 }
 
 .hero-text {
-    width: 53%;
+    width: 100%;
+    height: auto;
     text-align: start;
-    margin-top: 8.4vmax;
+    margin-top: 15vmax;
 }
 
 .Hero-text-h h1 {
@@ -402,8 +403,8 @@ i:hover {
 .progress-text {
     position: absolute;
     top: 84%;
-    left: 10%;
-    font-size: 0.8vw;
+    left: 15%;
+    font-size: 1.2vmax;
     font-family: sans-serif;
     transform: translate(-50%, -50%);
     color: white;
@@ -462,8 +463,8 @@ i:hover {
 .dn-box .progress-text {
     position: absolute;
     top: 84%;
-    left: 15%;
-    font-size: 0.8vw;
+    left: 18%;
+    font-size: 1.2vmax;
     font-family: sans-serif;
     transform: translate(-50%, -50%);
     color: white;
@@ -482,13 +483,12 @@ i:hover {
 
 .portfolio {
     margin-top: 5rem;
-    display: flex;
-    flex-direction: row;
+
 }
 
 .img {
-    width: 100%;
-    height: 95vh;
+    width: 32%;
+    height: auto;
     border-radius: 10px;
     box-shadow: 0 0 45px 0 rgba(0, 0, 0, 0.07);
 }

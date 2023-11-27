@@ -25,12 +25,12 @@ if (window.matchMedia('(max-width: 800px)').matches) {
       slideIndex = 1;
     }
   
-    slides[slideIndex - 1].style.display = 'block';
-    setTimeout(showSlides, 2000); 
+    slides[slideIndex - 1].style.display = 'inline-block';
+    setTimeout(showSlides, 1000); 
     
  }
 
-  showSlides(); 
+  showSlides();  
 }
 
 
